@@ -14,8 +14,9 @@ message User {
     string name = 2;
     string username = 3;
     string email = 4;
-    string phone_number = 5;
-    string address = 6;
+    string role = 5;
+    string phone_number = 6;
+    string address = 7;
 }
 
 message GetUserRequest {
