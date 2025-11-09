@@ -8,6 +8,7 @@ import "google/protobuf/timestamp.proto";
 
 service ProductService {
     rpc GetProducts(GetProductsRequest) returns (GetProductsResponse);
+    rpc DecreaseStock(DecreaseStockRequest) returns (DecreaseStockResponse);
 }
 
 message Product {
@@ -22,9 +23,22 @@ message Product {
 }
 
 message GetProductsRequest {
-    repeated string ids = 1; // "repeated" berarti ini adalah sebuah list/array
+    repeated string ids = 1; // "repeated" means return list/array
 }
 
 message GetProductsResponse {
+    repeated Product products = 1;
+}
+
+message DecreaseStockRequest {
+    repeated StockItem items = 1;
+}
+
+message StockItem {
+    string product_id = 1;
+    int32 quantity_to_decrease = 2; 
+}
+
+message DecreaseStockResponse {
     repeated Product products = 1;
 }
