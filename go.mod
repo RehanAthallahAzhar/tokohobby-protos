@@ -1,4 +1,4 @@
-module github.com/RehanAthallahAzhar/shopeezy-protos
+module github.com/RehanAthallahAzhar/tokohobby-protos
 
 go 1.23.3
 

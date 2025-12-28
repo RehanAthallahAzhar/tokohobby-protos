@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package account;
 
-option go_package = "github.com/RehanAthallahAzhar/shopeezy-protos/pb/account";
+option go_package = "github.com/RehanAthallahAzhar/tokohobby-protos/pb/account";
 
 service AccountService {
     rpc GetUser(GetUserRequest) returns (User);

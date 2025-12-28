@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "github.com/RehanAthallahAzhar/shopeezy-protos/pb/auth";
+option go_package = "github.com/RehanAthallahAzhar/tokohobby-protos/pb/auth";
 
 service AuthService {
   rpc ValidateToken (ValidateTokenRequest) returns (ValidateTokenResponse);

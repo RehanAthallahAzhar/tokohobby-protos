@@ -474,7 +474,7 @@ const file_product_product_proto_rawDesc = "" +
 	"\x0eProductService\x12H\n" +
 	"\vGetProducts\x12\x1b.product.GetProductsRequest\x1a\x1c.product.GetProductsResponse\x12N\n" +
 	"\rDecreaseStock\x12\x1d.product.DecreaseStockRequest\x1a\x1e.product.DecreaseStockResponse\x12N\n" +
-	"\rIncreaseStock\x12\x1d.product.IncreaseStockRequest\x1a\x1e.product.IncreaseStockResponseB:Z8github.com/RehanAthallahAzhar/shopeezy-protos/pb/productb\x06proto3"
+	"\rIncreaseStock\x12\x1d.product.IncreaseStockRequest\x1a\x1e.product.IncreaseStockResponseB;Z9github.com/RehanAthallahAzhar/tokohobby-protos/pb/productb\x06proto3"
 
 var (
 	file_product_product_proto_rawDescOnce sync.Once

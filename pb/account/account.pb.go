@@ -376,7 +376,7 @@ const file_account_account_proto_rawDesc = "" +
 	"\x05email\x18\x03 \x01(\tR\x05email2\x84\x01\n" +
 	"\x0eAccountService\x121\n" +
 	"\aGetUser\x12\x17.account.GetUserRequest\x1a\r.account.User\x12?\n" +
-	"\bGetUsers\x12\x18.account.GetUsersRequest\x1a\x19.account.GetUsersResponseB:Z8github.com/RehanAthallahAzhar/shopeezy-protos/pb/accountb\x06proto3"
+	"\bGetUsers\x12\x18.account.GetUsersRequest\x1a\x19.account.GetUsersResponseB;Z9github.com/RehanAthallahAzhar/tokohobby-protos/pb/accountb\x06proto3"
 
 var (
 	file_account_account_proto_rawDescOnce sync.Once
